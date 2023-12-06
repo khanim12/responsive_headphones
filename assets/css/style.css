@@ -1,0 +1,644 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    background-image: url(../images/Paste\ image.png);
+    padding-bottom: 200px;
+    background-size: cover;
+}
+.navbar{
+    width: 80%;
+    margin: auto;
+    padding-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar ul {
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+}
+.navbar ul a{
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.navbar .left h2{
+    font-size: 24px;
+    font-weight: 500;
+}
+.navbar .right i {
+    margin-right: 10px;
+   font-size: 25px;
+}
+.navbar .right span{
+    background-color: black;
+    color: orange;
+    padding: 2px 5px 5px 7px;
+    padding-bottom: 14px;
+    display: inline-block;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+nav .box{
+    width: 40%;
+    margin: 150px 50px auto 300px;
+    margin-left: auto;
+}
+nav .box h2{
+    font-size: 60px;
+    font-weight: 500;
+    letter-spacing: -3px;
+}
+nav .box h2 span{
+    color: blue;
+}
+nav .box button{
+    padding: 12px 56px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.4px;
+    background-color: black;
+    border: none;
+    color: white;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+.navbar .left svg{
+    display: none;
+}.navbar .right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width:568px){
+    .navbar .left svg{
+        display: block;
+    }
+.navbar .center{
+    display: none;
+}
+.navbar .group{
+    display: none;
+}
+.navbar .left{
+    display: flex;
+    align-items: center;
+
+}
+.navbar{
+    background-position: bottom;
+    /*  */
+}
+}
+/* NAVBAR END */
+.logo-container{
+    width: 80%;
+
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+    padding: 50px 0;
+}
+/* CONTAIN ARRIVAL */
+.contain-arrival{
+    margin: 60px auto 20px 50px;
+}
+.contain-arrival h3{
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: -0.4px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.contain-arrival .cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    overflow-x: scroll;
+    margin-top: 40px;
+    margin-left: 80px;
+
+}
+.contain-arrival .cards::-webkit-scrollbar {
+    display: none;}
+    .contain-arrival .arrival-image{
+        position: relative;
+    }
+    .contain-arrival .arrival-image span{
+        position: absolute;
+        top: 16px;
+        left: 16px;
+        padding: 4px 14px;
+        border-radius: 4px;
+        background-color: white;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    .contain-arrival .arrival-image .svg{
+        position: absolute;
+        top: 16px;
+        right: 16px;
+        width: 32px;
+        height: 32px;
+        padding: 6px;
+        background-color: white;
+        border-radius: 32px;
+    }
+    .contain-arrival .arrival-image button{
+        position: absolute;
+        bottom: 16px;
+        left: 16px;
+        text-transform: capitalize;
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: -0.4px;
+        padding: 14px 72px;
+        border-radius: 8px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.04);
+background-color: black;
+border: none;
+color: white;
+
+    }
+    .contain-arrival .arrival-text{
+        margin-top: 16px;
+    }
+    .contain-arrival .arrival-text p{
+        font-size: 16px;
+        font-weight: 600;
+        margin: 7px 0;
+        text-transform: capitalize;
+    }
+    .contain-arrival .arrival-text span{
+        font-size: 14px;
+        font-weight: 600;
+    }
+    /* COMTAINER SHOP START */
+    .container-shop{
+        width: 80%;
+        margin: 150px auto;
+
+    }
+    .container-shop .card img{
+        /* width: 448px; */
+        width: 100%;
+    }
+    .container-shop .card{
+        position: relative;
+    }
+    .container-shop h2{
+        text-transform: capitalize;
+        font-size: 40px;
+        font-weight: 500;
+        letter-spacing: -0,4px;
+        margin-bottom: 48px;
+    }
+    .container-shop .card .texts{
+        position: absolute;
+        bottom: 48px;
+        left: 48px;
+    }
+    .container-shop .card .texts h3{
+        font-size: 34px;
+        font-weight: 500;
+        letter-spacing: -0,6px;
+    }
+    .container-shop .card .texts a{
+        text-decoration: none;
+        color: black;
+        margin-right: 3px;
+        font-weight: 500;
+        font-size: 16px;
+    
+    }
+    .container-shop .card .texts .group{
+        border-bottom: 2px solid black;
+width: 120px;
+    }
+    .container-shop .cards{
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        grid-template-rows: repeat(2,auto);
+        gap: 23px;
+    }
+    .container-shop .cards .card:first-of-type{
+        grid-area: 1 / 1 / 3 / 2;
+    }
+/* SELLER CONTAINER */
+.container-seller{
+    width: 80%;
+    margin: 7px auto;
+
+}
+.container-seller h2{
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: -0.4px;
+    text-align: center;
+    text-transform: capitalize;
+    text-align: left;
+}
+.container-seller .cards{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    gap: 10px;
+}
+.container-seller .cards .card{
+    margin-top: 10px;
+}
+.container-seller .card .seller-image{
+    position: relative;
+
+}
+.container-seller .card .seller-image span{
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    padding: 3px 16px;
+    border-radius: 4px;
+    background-color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.container-seller .seller-text{
+    margin-top: 16px;
+}
+.container-seller .seller-text p{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 7px 0;
+    text-transform: capitalize;
+}
+.container-seller .seller-text span{
+    font-size: 14px;
+    font-weight: 600;
+}
+/* PROM CONTAINER START */
+.prom-container{
+    background-color: #ffdd99;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+}
+.prom-container .left {
+    width: 50%;
+}
+
+.prom-container .left img{
+    width: 100%;
+}
+.prom-container .right{
+    padding: 100px 150px 100px 70px;
+    width: 50%;
+
+}
+.prom-container .right>p:first-of-type{
+    color: #377DFF;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+.prom-container .right>p:last-of-type
+{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+.prom-container .right h3{
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: -0,4px;
+}
+
+.prom-container .right .cards{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+.prom-container .right .card p{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 34px;
+    font-weight: 500;
+    letter-spacing: -0,6px;
+    margin: 15px 0 3px;
+}
+.prom-container .right .card span{
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: capitalize;
+
+}
+.prom-container .right button{
+    padding: 10px 40px;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+    letter-spacing: -0,4px;
+    border-radius: 8px;
+    background-color: black;
+    border: none;
+    color: white;
+margin-top: 25px;
+}
+/* ICONS CONTAINER START */
+.icons-container{
+    width: 80%;
+    margin: 40px auto;
+}
+.icons-container .cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+gap: 10px;
+}
+.icons-container .card {
+    background-color: #f3f5f7;
+    padding: 48px 42px;
+}
+.icons-container .card  i{
+    /* width: 48px;
+    height: 48px; */
+    font-size: 39px;
+    color: #6f6f6f;
+}
+.icons-container .card  h4{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.icons-container .card p{
+    color: #6C7275;
+    font-size: 14px;
+    font-weight: 400;
+}
+/* INSTA CONTAINER START */
+.insta-container{
+    width: 80%;
+    margin: 100px auto;
+    text-align: center;
+}
+.insta-container p:first-of-type{
+    color: #6C7275;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.insta-container p:last-of-type{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.insta-container h3{
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: -0,4px;
+    text-transform: capitalize;
+    margin: 15px 0;
+}
+.insta-container span{
+    color: #6C7275;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.insta-container .images
+{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* SIGNUP CONTAINER START */
+.bg{
+    background-image: url(../images/background.png);
+
+}
+.signup-container{
+    width: 50%;
+    margin: auto;
+    padding: 70px;
+    text-align: center;
+}
+.signup-container h3{
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: -0,4px;
+}
+.signup-container p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 90px;
+}
+.signup-container .group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid gray;
+    padding-bottom: 3px;
+}
+.signup-container .group input::placeholder{
+    font-size: 16px;
+    color: #6C7275;
+    font-weight: 500;
+    letter-spacing: -0,4px;
+}
+.signup-container .group input[type="submit"]{
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -0,4px;
+    color: #6C7275;
+}
+.signup-container .group input{
+    border: none;
+    background-color: transparent;
+
+}
+/* FOOTER START */
+footer{
+    background-color: black;
+}
+.footer-container{
+    width: 80%;
+  
+    margin: auto;
+    padding: 80px 0;
+}
+.footer-container .cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-container .cards .card1{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    color: white;
+}
+.footer-container .cards .card1 h3{
+    font-size: 24px;
+    font-weight: 500;
+}
+.footer-container .cards .card1 p{
+    width: 1px;
+    height: 24px;
+    background-color: #6C7275;
+
+}
+.footer-container .cards .card1 h5{
+    font-size: 14px;
+    color: #e8ecef;
+    font-weight: 400;
+}
+
+.footer-container .cards .card ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+gap: 25px;
+list-style-type: none;
+}
+.footer-container .cards .card ul a{
+    text-decoration: none;
+    color: white;
+    color: #6C7275;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+.footer-container .cards2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-top: 100px;
+    border-top: 1px solid #6C7275;
+    padding-top: 20px;
+
+}
+.footer-container .cards2 .card2 .group{
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container .cards2  .card2{
+    display: flex;
+    justify-content: space-between
+    ;
+    align-items: center;
+    gap: 20px;
+}
+.footer-container .cards2  .card2 p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #e8ecef;
+}
+.footer-container .cards2  .card3 i{
+    font-size: 30px;
+    margin-right: 20px;
+}
+    /* RESPONSIVE  */
+    @media (max-width:562px){
+        .logo-container{
+            flex-wrap: nowrap;
+            overflow-x: scroll;
+        }
+        .logo-container::-webkit-scrollbar{
+            display: none;
+        }
+        .container-shop .cards{
+            grid-template-columns: auto;
+            gap: 10px;
+        }
+        .container-shop h2{
+            text-align: center;
+            font-size: 34px;
+        }
+        .contain-seller h2{
+            text-align: center;
+        }
+        .container-seller .cards {
+            display: grid;
+            grid-template-columns: repeat(2,auto);
+        }
+        .container-seller .cards .card .seller-text{
+            width: 100%;
+        }
+        .prom-container {
+            flex-direction: column;
+        }
+        .icons-container {
+            width: 95%;
+            margin: 15px auto;
+        }
+        .icons-container .cards{
+            display: grid;
+            grid-template-columns: repeat(2,auto);
+            
+        }
+        .insta-container .images{
+            flex-direction: column;
+            gap: 10px
+            
+        }
+        .bg{
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .signup-container h3{
+            font-size: 28px;
+        }
+        .signup-container p{
+            font-size: 14px;
+        }
+        .signup-container{
+            width: 90%;
+        }
+        .footer-container .cards2{
+            flex-direction: column-reverse;
+        }
+        .footer-container .cards2 .card2{
+            flex-direction: column-reverse;
+        }
+     
+        .footer-container .cards{
+flex-direction: column;
+        }
+
+        .footer-container .cards .card1{
+            flex-direction: column;
+            gap: 5px;
+        }
+        .footer-container .cards .card ul{
+            flex-direction: column;
+        }
+    }
